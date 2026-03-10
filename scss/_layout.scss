@@ -1,0 +1,30 @@
+.header{
+  padding: 120px 0;
+  &__title{
+    font-size: 24px;
+    font-weight: 700;
+  }
+  &__nav{
+    margin-top: 12px;
+  }
+  &__list{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}
+
+.section{
+  padding: 20px 0;
+}
+
+.container{
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 4%;
+}
+
+.main-visual{
+  width: 100%;
+}
